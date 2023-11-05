@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "json-autocomplete"
+version = "0.1.0"
+description = "Autocomplete any prefix substring of a JSON to become valid"
+authors = ["Joong-Won Seo <joong.won.seo@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
