@@ -1,0 +1,6 @@
+# ignore python-specific files
+__pycache__/
+
+# macos
+.DS_Store
+
