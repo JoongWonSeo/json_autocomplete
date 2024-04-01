@@ -1,5 +1,6 @@
 #include <string>
 #include <vector>
+#include <stdexcept>
 #include "json.h"
 
 // Abstract base class for all parsers
