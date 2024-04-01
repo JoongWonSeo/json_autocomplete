@@ -5,6 +5,8 @@ extensions = [
     Extension(
         "json_autocomplete.json_autocomplete",
         ["json_autocomplete/json_autocomplete.pyx"],
+        extra_compile_args=["-std=c++11"],
+        extra_link_args=["-std=c++11"],
     )
 ]
 
