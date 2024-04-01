@@ -1,1 +1,1 @@
-from .json import json_autocomplete
+from .json_autocomplete import json_autocomplete

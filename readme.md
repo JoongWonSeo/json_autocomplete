@@ -44,3 +44,19 @@ from json_autocomplete import json_autocomplete
 
 json_autocomplete('{"a": 1, "b": 2')
 ```
+
+## Development
+
+After making any changes to either Cython files or C++ files, you must cythonize the files:
+
+```bash
+cythonize -i json_autocomplete/*.pyx
+```
+
+This will 1) compile the Cython files to C++ files, and 2) compile the C++ files to shared libraries.
+
+Afterwards, you can install the package:
+    
+```bash
+pip install .
+```
