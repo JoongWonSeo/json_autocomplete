@@ -1,6 +1,6 @@
 [project]
 name = "json-autocomplete"
-version = "0.2.3"
+version = "0.2.4"
 description = "Autocomplete any prefix substring of a JSON to become valid"
 authors = [{name = "Joong-Won Seo", email = "joong.won.seo@gmail.com"}]
 readme = "README.md"
@@ -12,3 +12,6 @@ Repository = "https://github.com/JoongWonSeo/json_autocomplete.git"
 [build-system]
 requires = ["setuptools>=40.6.0", "Cython"]
 build-backend = "setuptools.build_meta"
+
+[tool.setuptools.package-data]
+"json_autocomplete" = ["py.typed"]
