@@ -6,7 +6,7 @@ from libcpp.string cimport string
 
 # Declare the C++ function
 cdef extern from "json.h":
-    string json_autocomplete_cpp(string prefix)
+    string json_autocomplete_cpp(string prefix) except +
 
 # Declare the Python function
 def json_autocomplete(prefix: str) -> str:
