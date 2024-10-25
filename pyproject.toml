@@ -11,10 +11,10 @@ Repository = "https://github.com/JoongWonSeo/json_autocomplete.git"
 
 [build-system]
 requires = [
-    # "setuptools>=40.6.0", # before hot fix
+    "setuptools>=40.6.0", # before hot fix
     # The next two lines are needed due to https://github.com/pypa/distutils/issues/283, where PyPy and setuptools are incompatible
-    "setuptools>=40.6.0; implementation_name == 'cpython'",
-    "setuptools>=40.6.0,!=72.2.0; implementation_name != 'cpython'",
+    # "setuptools>=40.6.0; implementation_name == 'cpython'",
+    # "setuptools>=40.6.0,!=72.2.0; implementation_name != 'cpython'",
     "Cython",
 ]
 build-backend = "setuptools.build_meta"
