@@ -24,9 +24,6 @@ jobs:
 
       - name: Build wheels
         uses: pypa/cibuildwheel@v2.21.3
-        env:
-          CIBW_BEFORE_BUILD: pip install 'setuptools<72.2.0 ; implementation_name == "pypy"'
-
 
       - uses: actions/upload-artifact@v4
         with:
